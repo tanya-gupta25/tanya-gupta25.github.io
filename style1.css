@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background: url(img7.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 37px;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: wheat;
+}
+.contact-form{
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    width: 50%;
+    padding:  30px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    border-radius: 5px;
+    max-width: 550px;   
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.input-fields,
+.msg{
+    width: 48%;
+}
+.input-fields .input,
+.msg textarea{
+margin: 10px 0;
+background: transparent;
+border: 0;
+border-bottom: 2px solid white;
+padding: 10px;
+width: 100%;
+color: #c5ecfd;
+width: 100%;
+}
+.msg textarea{
+height: 212px;
+}
+.btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
